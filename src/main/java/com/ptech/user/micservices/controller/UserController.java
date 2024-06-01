@@ -10,7 +10,7 @@ public class UserController {
 	
 	@GetMapping("/getString")
 	public String getName() { 
-		System.out.println();
+		
 		return "This is Microservices Test Priject";
 	}
 }
